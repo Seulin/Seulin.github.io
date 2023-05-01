@@ -3,6 +3,7 @@ layout: post
 title: Mermaid example
 categories: example
 tags: [mermaid]
+type: private
 ---
 
 ### 1. Pie chart
