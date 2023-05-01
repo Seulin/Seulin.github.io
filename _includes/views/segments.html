@@ -9,13 +9,15 @@
 <div class="page-segments">
   <ul class="page-segments-list">
     {% for key in keys %}
-    <h2 id="{{ key }}" class="segment-name">{{ key }}</h2>
-      {% assign items = site.posts | where: field, key %}
-      {% for item in items %}
-        {% if item != nil %}
-        <li> {% include views/post-item.html %} </li>
-        {% endif %}
-      {% endfor %}
+      {% assign items = site.posts | where: field, key | where_exp:"item", "item.type != 'private'" %}
+      {% if items.size > 0 %}
+        <h2 id="{{ key }}" class="segment-name">{{ key }}</h2>
+        {% for item in items %}
+          {% if item != nil %}
+          <li> {% include views/post-item.html %} </li>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
     {% endfor %}
   </ul>
 </div>
