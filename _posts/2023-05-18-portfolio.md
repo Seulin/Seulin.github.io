@@ -10,10 +10,10 @@ type: private
 안녕하세요! 웹개발까지 하는 인공지능 개발자 정슬인입니다.
 
 <br>
-새로운 경험은 항상 가치 있는 일이라 생각하여 웹/앱/게임/AI 등 다양한 분야를 공부해보았습니다. 교내 UGRP 연구 프로그램에서 머신러닝 모델을 직접 제작한 웹사이트에 적용해보면서 흥미를 느꼈고 이와 관련한 경험을 쌓기 시작했습니다. 머신러닝으로 만들어 낸 가치를 웹을 통해 전달하려고 노력합니다.
+새로운 경험은 항상 가치 있는 일이라 생각하여 웹/앱/게임/AI 등 다양한 분야를 공부해보았습니다. 교내 연구 프로그램(UGRP)에서 머신러닝 모델을 직접 제작한 웹사이트에 적용해보면서 흥미를 느꼈고 이와 관련한 경험을 쌓기 시작했습니다. 머신러닝으로 만들어 낸 가치를 웹을 통해 전달하려고 노력합니다.
 
 <br>
-:heavy_check_mark:&nbsp; 다양한 협업 경험을 통해 어떤 환경에서도 빠르게 적응하여 성과를 낼 수 있습니다.
+:heavy_check_mark:&nbsp; 다양한 협업 경험을 통해 어떤 환경에서도 빠르게 적응합니다.
 
 :heavy_check_mark:&nbsp; 눈앞의 쉬운 길보다는 어렵지만 가치 있는 길을 좋아합니다.
 
@@ -141,7 +141,7 @@ type: private
 - State, Reward model design
 - Model Training & Simulation
 - Results Analaysis & Visualization
-- 학습시간 83% 단축 (210m → 35m)
+- 학습시간 86% 단축 (182m → 26m)
     - Q-table의 크기가 매우 커 학습시간이 오래 걸림
     - $Q-table \, size = (num\;states) * (num \; actions) * (num \; agents) = 3.6*10^{15}$
     - Decaying ε-greedy의 ε와 decay 값 최적화로 학습시간을 대폭 줄임
@@ -192,7 +192,7 @@ type: private
  - 알고리즘 연구
     - 연산자 및 괄호 주위 공백, 평균 함수 길이 등의 코딩 스타일 vector 추출
     - 표절도 계산식 정립
-    - K-means Clustering을 이용한 
+    - K-means Clustering을 이용한 군집 내 편차 계산
  - 사이트 개발
     - Docker와 Socket을 사용한 실시간 python interpreter 구현
     - 강의 캘린더 및 일정 조율 기능
@@ -344,7 +344,7 @@ Data Analysis: `python`, `pandas`
 ## :page_with_curl:&nbsp; Certificates
 - [NVIDIA](/assets/pdf/certificates/NVIDIA.pdf) - NVIDIA
     - [Building Conversational AI Applications](https://www.nvidia.com/en-us/training/instructor-led-workshops/building-conversational-ai-apps/)
-    - [Building Transforemr-Based Natural Language Processing](https://www.nvidia.com/en-us/training/instructor-led-workshops/natural-language-processing/)
+    - [Building Transforemr-Based Natural Language Processing Applications](https://www.nvidia.com/en-us/training/instructor-led-workshops/natural-language-processing/)
 - [AWS](/assets/pdf/certificates/AWS.pdf) - AWS
     - [Developing on AWS](https://aws.amazon.com/ko/training/classroom/developing-on-aws/?ct=sec&sec=rolesol)
     - [Deep Learning on AWS](https://aws.amazon.com/ko/training/classroom/deep-learning-on-aws/?ct=sec&sec=rolesol)
