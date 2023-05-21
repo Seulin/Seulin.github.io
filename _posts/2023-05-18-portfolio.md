@@ -1,13 +1,21 @@
 ---
 layout: post
-title: PORTFOLIO
+title: Seulin Jeong
 subtitle: Valuable Experiences I've had
 categories: 
 tags: []
 type: private
 ---
-> 안녕하세요. 자기소개 뭐라고 해
 
+안녕하세요! 웹개발까지 하는 인공지능 개발자 정슬인입니다.
+
+<br>
+새로운 경험은 항상 가치 있는 일이라 생각하여 웹/앱/게임/AI 등 다양한 분야를 공부해보았습니다. 교내 UGRP 연구 프로그램에서 머신러닝 모델을 직접 제작한 웹사이트에 적용해보면서 흥미를 느꼈고 이와 관련한 경험을 쌓기 시작했습니다. 머신러닝으로 만들어 낸 가치를 웹을 통해 전달하려고 노력합니다.
+
+<br>
+:heavy_check_mark:&nbsp; 다양한 협업 경험을 통해 어떤 환경에서도 빠르게 적응하여 성과를 낼 수 있습니다.
+
+:heavy_check_mark:&nbsp; 눈앞의 쉬운 길보다는 어렵지만 가치 있는 길을 좋아합니다.
 
 ## :pushpin:&nbsp; Profile
 
@@ -22,10 +30,10 @@ type: private
     - GPA: 4.09/4.3
 
 ### :books:&nbsp; Stacks
-- ★★★★: `python`, `numpy`, `pandas`, `pytorch`, `matplotlib`, `Git&GitHub`
-- ★★★: `SQL`, `scikit-learn`, `Vue.js`, `PHP`, `AWS`, `C++`
-- ★★: `Node.js`, `Docker`
-- ★: `Figma`
+- ★★★★: `python`, `numpy`, `pandas`, `pytorch`
+- ★★★: `Git&GitHub`, `matplotlib`, `scikit-learn`, `SQL`, `Vue.js`, `Vuetify`, `PHP`, `AWS`, `C++`
+- ★★: `Docker`, `Node.js`, 
+- ★: `Django`, `MongoDB`, `Figma`
 
 ### :globe_with_meridians:&nbsp; Language Skills
 - TOEFL 97 (2023.03)
@@ -48,7 +56,7 @@ type: private
 - 과정
     - Virus Total에 악성코드 샘플을 요청하여 전달받은 샘플을 연구에 활용
     - PE, APK, ELF 악성코드에서 추출 가능한 feature 분석 및 추출
-    - Transformer를 모델로 선정 및 개발
+    - Transformer를 악성코드 탐지 모델로 선정 및 개발
     - Evasion Attack을 막기 위한 SHAP (XAI) 활용 방안 제시
 - 결과
     - 모델
@@ -82,7 +90,6 @@ type: private
 [Weekly Meeting Minutes](https://docs.google.com/document/d/1m5AwoPpe4Jtsu6hwGuRbnX8VqkdvTgynbwP2VijkqKg/edit?usp=sharing)
 
 [Report & Presentation](https://docs.google.com/presentation/d/1_dTFK6WphDtymrteWm--TwfOYkCw0CzKasFkNM0yErw/edit?usp=sharing)
-@@ 슬라이드 노트 수정
 
 </details>
 
@@ -134,7 +141,7 @@ type: private
 - State, Reward model design
 - Model Training & Simulation
 - Results Analaysis & Visualization
-- 학습시간 단축 @수치화
+- 학습시간 83% 단축 (210m → 35m)
     - Q-table의 크기가 매우 커 학습시간이 오래 걸림
     - $Q-table \, size = (num\;states) * (num \; actions) * (num \; agents) = 3.6*10^{15}$
     - Decaying ε-greedy의 ε와 decay 값 최적화로 학습시간을 대폭 줄임
@@ -149,7 +156,6 @@ type: private
 [Report](https://docs.google.com/document/d/1fVuZjVmgpYKKvaU3rci1VCDs7f1Hm2K93z4LSrYdBBc/edit?usp=sharing)
 
 [Presentation](https://docs.google.com/presentation/d/1_isdUFmhiau14VszPiuuSGmSbYC4R34T5BFDYWlzVOA/edit?usp=sharing)
-@@ 피피티 코멘트 수정하기
 
 </details>
 
@@ -186,6 +192,7 @@ type: private
  - 알고리즘 연구
     - 연산자 및 괄호 주위 공백, 평균 함수 길이 등의 코딩 스타일 vector 추출
     - 표절도 계산식 정립
+    - K-means Clustering을 이용한 
  - 사이트 개발
     - Docker와 Socket을 사용한 실시간 python interpreter 구현
     - 강의 캘린더 및 일정 조율 기능
@@ -194,7 +201,7 @@ type: private
 
 #### 기술 및 라이브러리
 - Data Analysis: `python`, `tokenizer`, `pandas`, `numpy`
-- Web Development: `Vue.js`, `Node.js`, `AWS EC2(Ubuntu)`, `MongoDB`, `GitHub`
+- Web Development: `Vue.js`, `Node.js`, `AWS EC2(Ubuntu)`, `MongoDB`, `GitHub`, `Vuetify`
 - Extra: `Docker`, `Socket.io`
 
 #### 관련 자료
@@ -209,12 +216,13 @@ type: private
 &nbsp; AI 프레임워크 없이 딥러닝 모델 구현
 </summary>
 
-> 2020.10 - 2022.12 @@
+> 2020.10 - 2020.12
 > 
 > '딥러닝 개론' 강의 프로젝트 - DGIST
 
 #### 프로젝트 개요
 - 모델
+    - pytorch에서 제공하는 함수와 동일한 Abstarct Data Type를 가지도록 작성함
     - DNN, CNN Model: MNIST 숫자 예측
     - RNN, LSTM Model: 문장의 감정 예측
 - 구현 내용
@@ -227,26 +235,26 @@ type: private
 - 결과
     - DNN
         - Linear → R/L → Linear → R/L → Linear → Softmax
-        - Test Accuray: @@
+        - Average Accuray: 0.902
 
         |: R: Relu :|: L: LeakyRelu :|
         | -- | -- |
         |![Relu](https://raw.githubusercontent.com/Seulin/Deep-Learning-Models-without-Frameworks/main/DNN/figure/relu_cf.png)|![Leaky Relu](https://raw.githubusercontent.com/Seulin/Deep-Learning-Models-without-Frameworks/main/DNN/figure/lrelu_cf.png)|
     - CNN
         - Convolution → Convolution → Linear → Softmax
-        - Test Accuray: @@
+        - Average Accuray: 0.836
 
         ![CNN](/assets/images/posts/CNN.png){: width="70%"}
 
     - RNN
-        - Test Accuray: @@
+        - Test Accuray: 0.679
 
         |: Accuracy :|: Loss :|
         | -- | -- |
         | ![RNN Accuracy](https://raw.githubusercontent.com/Seulin/Deep-Learning-Models-without-Frameworks/main/RNN-LSTM/A%20accuracy%20graph.png) | ![RNN Loss](https://raw.githubusercontent.com/Seulin/Deep-Learning-Models-without-Frameworks/main/RNN-LSTM/A%20loss%20graph.png)|
 
     - LSTM
-        - Test Accuray: @@
+        - Test Accuray: 0.643
 
         |: Accuracy :|: Loss :|
         | -- | -- |
@@ -272,9 +280,13 @@ type: private
 
 > 2021.04 - 현재
 > 
-> Small business owner의 해외 진출을 위한 글로벌 마켓 리서치 서비스
+> 글로벌 마켓 리서치 사이트 개발 및 리서치 데이터 분석
 
-@ 수치화
+#### 서비스 개요
+- Small business owner의 해외 진출을 위한 글로벌 마켓 리서치 서비스
+    - 제품 판매 전 소비자들의 반응을 파악하기 위한 마켓 리서치
+    - target country, recommended price, strategy 등의 인사이트 제공
+
 #### 역할
 - 사이트 내의 Funnel Analysis
     - Google Analytics와 hotjar을 통한 user behavior 로그 분석
@@ -285,7 +297,7 @@ type: private
     - Recommended Price logic 구현
     - Google Trend API 활용
 - 마켓 리서치 웹사이트 개발
-    - radiansys 사와 개발 외주 진행 (2021.09~)
+    - PM: radiansys 사와 개발 외주 진행 (2021.09~)
     - AWS EC2 서버 및 MySQL 관리
 
 #### 성과
@@ -331,8 +343,8 @@ Data Analysis: `python`, `pandas`
 
 ## :page_with_curl:&nbsp; Certificates
 - [NVIDIA](/assets/pdf/certificates/NVIDIA.pdf) - NVIDIA
-    - [Building Conversational AI Applications](https://nvdam.widen.net/s/wlbgbqr7cj/nvidia-learning-training-course-catalog#%5B%7B%22num%22%3A50%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22Fit%22%7D%5D)
-    - [Building Transforemr-Based Natural Language Processing](https://nvdam.widen.net/s/wlbgbqr7cj/nvidia-learning-training-course-catalog#%5B%7B%22num%22%3A54%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22Fit%22%7D%5D)
+    - [Building Conversational AI Applications](https://www.nvidia.com/en-us/training/instructor-led-workshops/building-conversational-ai-apps/)
+    - [Building Transforemr-Based Natural Language Processing](https://www.nvidia.com/en-us/training/instructor-led-workshops/natural-language-processing/)
 - [AWS](/assets/pdf/certificates/AWS.pdf) - AWS
     - [Developing on AWS](https://aws.amazon.com/ko/training/classroom/developing-on-aws/?ct=sec&sec=rolesol)
     - [Deep Learning on AWS](https://aws.amazon.com/ko/training/classroom/deep-learning-on-aws/?ct=sec&sec=rolesol)
