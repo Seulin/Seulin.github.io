@@ -4,6 +4,7 @@ title: Seulin Jeong
 subtitle: Valuable Experiences I've had
 categories: 
 tags: []
+use_math: true
 type: private
 ---
 

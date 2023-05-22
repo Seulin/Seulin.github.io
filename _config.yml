@@ -218,3 +218,8 @@ plugins:
   - jekyll-paginate
   - jekyll-spaceship
   - jemoji
+
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
