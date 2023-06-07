@@ -146,6 +146,8 @@ pre,
 code {
   @include relative-font-size(0.9375);
   color: $text-color;
+  font-family: 'SF Mono', sans-serif, 'Courier New', Courier, monospace;
+  // white-space: nowrap;
 }
 
 *:not(pre) > code {
@@ -222,8 +224,7 @@ table {
   }
 
   th, td {
-    padding: 0 0;
-    // padding: ($spacing-unit / 9) ($spacing-unit / 6);
+    padding: ($spacing-unit / 9) ($spacing-unit / 6);
     // padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
 
@@ -235,6 +236,12 @@ table {
 
   td {
     border: 1px solid $grey-color-light;
+  }
+}
+
+table.no-space {
+  th, td {
+    padding: 0 0;
   }
 }
 
