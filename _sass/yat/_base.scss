@@ -145,9 +145,14 @@ blockquote {
 pre,
 code {
   @include relative-font-size(0.9375);
-  color: $text-color;
+  // color: $text-color;
   font-family: 'SF Mono', sans-serif, 'Courier New', Courier, monospace;
   // white-space: nowrap;
+}
+
+// pre > span (O linenos), pre > code > span (X linenos)
+pre span{
+  color: $code-color;
 }
 
 *:not(pre) > code {
@@ -160,7 +165,7 @@ code {
 pre {
   overflow-x: auto;
   position: relative;
-  background-color: #f0f0f0;
+  // background-color: #f0f0f0;
 
   > code {
     display: inline-block;
@@ -225,7 +230,6 @@ table {
 
   th, td {
     padding: ($spacing-unit / 9) ($spacing-unit / 6);
-    
     // padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
 
