@@ -411,7 +411,7 @@ html {
       margin: 20px 0px;
     }
 
-    .h3-title { // summary
+    .h3-title { // @@@summary, temporary
       @include relative-font-size(1.25);
 
       @include media-query($on-laptop) {
