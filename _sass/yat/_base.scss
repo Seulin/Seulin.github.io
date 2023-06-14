@@ -225,6 +225,7 @@ table {
 
   th, td {
     padding: ($spacing-unit / 9) ($spacing-unit / 6);
+    
     // padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
 
@@ -239,7 +240,8 @@ table {
   }
 }
 
-table.no-space {
+table.no-space { 
+
   th, td {
     padding: 0 0;
   }

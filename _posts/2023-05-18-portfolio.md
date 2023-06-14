@@ -128,6 +128,7 @@ type: private
         | -- | -- |
         | ![EV_travel](/assets/images/posts/evt-fixed.png) | ![EV_travel2](/assets/images/posts/evt-learned.png) |
         |: Avg: 145.3s :|: Avg: 61.4s :|
+        {: .no-space}
 
     - 일반차량 대기 시간 15% 감축
 
@@ -135,6 +136,7 @@ type: private
         | -- | -- |
         | ![Watiting time](/assets/images/posts/awt-7000-fixed.png) | ![Waiting time](/assets/images/posts/awt-7000-learned.png) |
         |: Avg: 1552.3s :|: Avg: 1331.2s :|
+        {: .no-space}
 
 #### 역할
 - 팀 구성: 2인
