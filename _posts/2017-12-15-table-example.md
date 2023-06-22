@@ -4,7 +4,7 @@ title: Table example
 subtitle:
 categories: example
 tags: [table]
-type: private
+type: hidden
 ---
 
 ## Table example as below

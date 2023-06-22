@@ -4,7 +4,7 @@ title: Mathjax Test
 subtitle: My first mathjax expression
 categories: markdown
 tags: [test]
-type: private
+type: hidden
 ---
 
 * A safe integer is an integer that

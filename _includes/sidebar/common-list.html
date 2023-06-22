@@ -10,12 +10,12 @@
   <ul>
     <li>
       <a href="{{ '/index.html' | relative_url }}">
-        All<span>{{ site.posts | where_exp:"item", "item.type != 'private'" | size }}</span>
+        All<span>{{ site.posts | where_exp:"item", "item.type != 'hidden'" | size }}</span>
       </a>
     </li>
 
     {% for key in  keys %}
-      {% assign count = site.posts | where: field, key | where_exp:"item", "item.type != 'private'" | size %}
+      {% assign count = site.posts | where: field, key | where_exp:"item", "item.type != 'hidden'" | size %}
       {% if count > 0 %}
         <li>
           <a href="{{ url }}#h-{{ key }}">

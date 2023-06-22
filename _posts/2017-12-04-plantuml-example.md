@@ -3,7 +3,7 @@ layout: post
 title: Plantuml example
 categories: example
 tags: [plantuml]
-type: private
+type: hidden
 ---
 
 ## My First PlantUML

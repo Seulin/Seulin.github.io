@@ -4,13 +4,13 @@
   {%- assign paginator = site -%}
 {%- endif -%}
 
-{% assign count = site.posts | where_exp:"item", "item.type != 'private'" | size %}
+{% assign count = site.posts | where_exp:"item", "item.type != 'hidden'" | size %}
 {%- if count > 0 -%}
   <div class="pagination">
     <!-- Post list links -->
     <ul class="post-list">
       {%- for post in paginator.posts -%}
-      {% if post.type != 'private' %}
+      {% if post.type != 'hidden' %}
         <li>
           {%- assign date_format = site.yat.date_format | default: "%b %-d, %Y" -%}
 
