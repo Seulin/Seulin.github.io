@@ -24,3 +24,6 @@ vendor/cache
 commit-message.txt
 
 .DS_Store
+
+encryption.html
+_drafts
