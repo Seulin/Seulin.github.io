@@ -5,7 +5,7 @@ subtitle: Valuable Experiences I've had
 categories: 
 tags: []
 use_math: true
-type: public
+type: hidden
 ---
 
 안녕하세요! 웹 및 인공지능 개발자 정슬인입니다.
