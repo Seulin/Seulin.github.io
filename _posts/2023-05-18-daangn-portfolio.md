@@ -308,8 +308,8 @@ type: hidden
 - 한국 대표 스타트업으로 선정 및 2022 [Slush](https://www.slush.org/about/) (Start-up Conference in Finland) 참여
 
 #### 기술 및 라이브러리
-Web Development: `PHP`, `SQL`, `AWS EC2(Centos)`, `GitHub`, `Figma`
-Data Analysis: `python`, `pandas`
+- Web Development: `PHP`, `SQL`, `AWS EC2(Centos)`, `GitHub`, `Figma`
+- Data Analysis: `python`, `pandas`
 
 </details>
 
