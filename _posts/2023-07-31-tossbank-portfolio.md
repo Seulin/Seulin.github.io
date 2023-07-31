@@ -35,7 +35,7 @@ type: hidden
 
 ### :books:&nbsp; Stacks
 - Web Development: `SQL`, `Vue.js`, `PHP`, `Node.js`, `AWS`, `Docker`
-- Data Analysis: `Python`, `PyTorch`, `NumPy`, `pandas`, `Matplotlib`, 
+- Data Analysis: `Python`, `PyTorch`, `NumPy`, `pandas`, `Matplotlib`
 
 ### :globe_with_meridians:&nbsp; Language Skills
 - TOEFL 97 (2023.03)
@@ -73,8 +73,8 @@ type: hidden
     - AI보안 기술개발 교육과정 팀 프로젝트 부문 공동 1등 상
 
 #### 역할
-- 팀 구성: 보안 2, AI 2
 - 팀장: 주간 회의 진행, 일정 조율, 발표
+- 팀 구성: 보안 2, AI 2
 - 인공지능 모델 분석 및 Transformer 제안
     - Vision Transformer (ViT, 2020)가 등장한 이후로 Transformer가 자연어처리 외에도 좋은 성능을 보인다는 것을 증명함
     - 서로 다른 크기의 input을 받을 수 있어서 악성코드의 모든 feature를 활용할 수 있음
@@ -140,8 +140,8 @@ type: hidden
         {: .no-space}
 
 #### 역할
-- 팀 구성: 2인
 - 팀장
+- 팀 구성: 2인
 - State, Reward model design
 - Model Training & Simulation
 - Results Analaysis & Visualization
@@ -288,10 +288,10 @@ type: hidden
     - 100만 건 이상의 데이터셋 활용
     - 퀄리티 지표 분석 및 이를 반영한 모델 학습
     - 모델 결과 분석 및 개선
-- 검색 랭킹모델 개선
+- 검색 랭킹모델 고도화
     - Hyper-parameter opitmization
     - 새로운 Feature 도입
-    - CTR 분석 및 개선
+    - CTR 분석 및 모델 개선
 
 
 #### 기술 및 라이브러리
