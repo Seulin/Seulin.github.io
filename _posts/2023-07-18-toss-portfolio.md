@@ -67,6 +67,7 @@ type: hidden
     - Recommended Price logic 구현
     - Google Trend API 활용
 - 마켓 리서치 웹사이트 개발
+    - Eximbay 결제 시스템 도입
     - PM: radiansys 사와 개발 외주 진행 (2021.09~)
     - AWS EC2 서버 및 MySQL 관리
 
